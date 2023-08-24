@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&family=Montserrat&family=Poppins:ital,wght@1,300&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Timer || APP</title>
+</head>
+
+<body>
+    <div class="timer">
+       <div class="input">
+        <input type="number" id="inputHours" placeholder="H">
+        <input type="number" id="inputMinutes" placeholder="M">
+        <input type="number" id="inputSeconds" placeholder="S">
+       </div>
+
+        <div id="timer__part">
+            00:00:00
+        </div>
+
+        <button type="button" class="timer__btn" id="start" ><i class="fa-solid fa-play"></i></button>
+        <!-- <button type="button" class="timer__btn" id="stop"><i class="fa-solid fa-stop"></i></button> -->
+        <button type="button" class="timer__btn" id="reset"><i class="fa-solid fa-clock"></i></button>
+        <audio src="ringingsound.mp3.mp3" id="ringingsound" preload="auto"></audio>
+
+    </div>
+    <div class="footer">
+        Made with ❤️ by Evans.
+    </div>
+
+
+
+
+
+    <script src="timer.js"></script>
+</body>
+
+</html>
